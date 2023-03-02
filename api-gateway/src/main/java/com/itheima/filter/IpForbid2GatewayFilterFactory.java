@@ -41,6 +41,7 @@ public class IpForbid2GatewayFilterFactory extends AbstractGatewayFilterFactory<
      **/
     @Override
     public List<String> shortcutFieldOrder() {
+
         return Arrays.asList("ip");
     }
 
