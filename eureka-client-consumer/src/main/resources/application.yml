@@ -1,0 +1,23 @@
+# 配置应用基本信息
+server:
+  port: 8080
+spring:
+  application:
+    name: eureka-client-consumer
+# 配置eureka server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+# 开启Feign对hystrix的支持
+feign:
+  hystrix:
+    enabled: true
+logging:
+  level:
+    com.itheima: debug
+# 修改服务地址轮询策略，默认是轮询，配置之后变随机
+# 服务消费方配置
+#eureka-client-provider: # 服务名称
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

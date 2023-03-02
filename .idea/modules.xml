@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-center-server/config-center-server.iml" filepath="$PROJECT_DIR$/config-center-server/config-center-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" filepath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-provider/eureka-client-provider.iml" filepath="$PROJECT_DIR$/eureka-client-provider/eureka-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-registry/eureka-server-registry.iml" filepath="$PROJECT_DIR$/eureka-server-registry/eureka-server-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice.iml" filepath="$PROJECT_DIR$/springcloud-microservice.iml" />
+    </modules>
+  </component>
+</project>
